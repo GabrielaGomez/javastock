@@ -13,14 +13,14 @@ public class ProdUI {
 	public static void showAll() {
 		System.out.println( "=================================" );
 		System.err.println( " ID | NAME | CREATOR | DATE" );
-/*		try {
-			for( Product u : ProductManager.getProduct() ){
+		try {
+			for( Product u : ProductManager.getProducts() ){
 				System.out.println( u.getId() + " | " + u.getName() + " | " + u.getDescription() );
 			}
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
-*/		System.out.println( "=================================" );
+		System.out.println( "=================================" );
 	}
 	
 	public static void add(Scanner scanIn) {
