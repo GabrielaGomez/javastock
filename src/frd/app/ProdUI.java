@@ -6,7 +6,6 @@ import java.util.Scanner;
 
 import frd.db.ProductManager;
 import frd.model.Product;
-import frd.model.User;
 
 public class ProdUI {
 
