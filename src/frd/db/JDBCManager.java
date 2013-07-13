@@ -23,7 +23,7 @@ public class JDBCManager {
 	//private static final String DB_CONNECTION = "jdbc:mysql://127.0.0.1:5432/dbname";
 	
 	private static final String DB_USER = "postgres";
-	private static final String DB_PASSWORD = "admin";
+	private static final String DB_PASSWORD = "postgres";
 	
 	protected static final DateFormat dateFormat = new SimpleDateFormat( "yyyy/MM/dd HH:mm:ss" );
 
