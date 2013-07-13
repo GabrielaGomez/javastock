@@ -64,7 +64,6 @@ public class ProductManager extends JDBCManager {
 			
 			result.add( usr );
 		}
-		
 		return result;
 	}
 }
