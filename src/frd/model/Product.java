@@ -10,6 +10,7 @@ public class Product {
 	
 	public Product(){}
 
+	
 	public int getId() {
 		return id;
 	}
