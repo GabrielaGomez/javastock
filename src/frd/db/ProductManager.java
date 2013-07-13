@@ -21,6 +21,7 @@ public class ProductManager extends JDBCManager {
 		execute( createTableSQL );
 	}
 	
+	
 	public static void insertProduct(int productId, String productname, String description, Date creation) throws SQLException{
 		String insertTableSQL = "INSERT INTO DBPRODUCT"
 			+ "(PRODUCT_ID, PRODUCTNAME, DESCRIPTION) " + "VALUES"
