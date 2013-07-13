@@ -26,7 +26,7 @@ public class TestDBProduct {
 			}
 
 			//modificando producto
-			ProductManager.updateProduct(2, "Producto 2 Modificado", "admin");
+			ProductManager.updateProduct(2, "Producto 2 Modif", "admin");
 			System.out.println( "Producto 2 modificado!" );
 			
 			//obtengo los producto de la bd
