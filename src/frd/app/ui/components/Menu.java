@@ -41,7 +41,7 @@ public class Menu extends JMenuBar {
 		edit.add(users);
 		
 		JMenuItem product = new JMenuItem("Productos");
-		users.addActionListener(new ActionListener() {
+		product.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
 				new ProdWindow();

@@ -24,12 +24,12 @@ public class ProdWindow extends JDialog{
 		getContentPane().setLayout(new GridLayout(3,1));
 		getContentPane().add(title);
 
-		String[] columnNames = {"ID","NOMBRE","DESCRIPCION"};
+		String[] columnNames = {"ID","NOMBRE","DESCRIPCION","DESCRIPCION"};
 		Object[][] rowData = null;
 
 		try {
 			List<Product> products = ProductManager.getProducts();
-			rowData = new Object[products.size()][3];
+			rowData = new Object[products.size()][4];
 			int i = 0;
 			for( Product u : products ){
 				rowData[i][0] = u.getId();
