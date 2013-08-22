@@ -8,6 +8,7 @@ import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 
+import frd.app.ui.ProdWindow;
 import frd.app.ui.UserWindow;
 
 
@@ -38,6 +39,15 @@ public class Menu extends JMenuBar {
 			}
 		});
 		edit.add(users);
+		
+		JMenuItem product = new JMenuItem("Productos");
+		users.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent arg0) {
+				new ProdWindow();
+			}
+		});
+		edit.add(product);
 		
 		add(edit);
 		
